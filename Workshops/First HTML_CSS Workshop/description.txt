@@ -1,0 +1,8 @@
+The current folder holds all the files used for the elements covered in the first HTML / CSS Workshop 
+from May 21st, 2020!
+
+Feel free to play around with the code on your local computer or just look through the powerpoint slides
+to learn a bit about the languages.
+
+More workshops on HTML, CSS, and Javascript may be coming soon so be sure to let us know if this is 
+something you would be interested in. Happy coding!
