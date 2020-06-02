@@ -1,0 +1,72 @@
+<!-- Here is a slightly more involved example of the HTML / CSS elements we have learned about! -->
+<!-- You can open this file by downloading it and opening the file in a browser - you'll see your HTML -->
+<!DOCTYPE html>
+<html>
+    <head lang="en-US">
+        <title>GWC HTML/CSS Workshop 1</title>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" 
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+            integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+            crossorigin="anonymous">
+        <meta charset="utf-8">
+        <style>
+            body {
+                /* These are comments in CSS */
+                /* Only the elements that inherit from body will be 12px */
+                font-size: 12px;
+                padding: 10px;
+            }
+            h1 {
+                font-size: 54px;
+            }
+            li {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align:center;">Example Website</h1>
+        <button type="button">No bootstrap</button>
+
+        <button type="button" class="btn">Bootstrap button</button>
+        <button type="button" class="btn btn-dark">Bootstrap button - dark</button>
+        <button type="button" class="btn btn-light">Bootstrap button - light</button>
+
+        <br/><br/><br/>
+        <h2>Example Form</h2>
+        <form>
+            <label for=“username”>Username</label>
+            <input type=“text” name=“username”>
+
+            <label for="password">Password</label>
+           <input type="password" name="password">
+        </form>
+        <br/><br/>
+
+<!-- Unordered Lists -->
+
+        <h2>Lists</h2>
+        <h3>Grocery Shopping List</h3>
+        <ul>
+            <li>Apples</li>
+            <li>Tissues</li>
+            <li>Chips</li>
+            <li>Drinks</li>
+        </ul>
+
+<!-- Ordered Lists -->
+
+        <h3>Morning Schedule To Dos</h3>
+        <ol>
+            <li>Wake up</li>
+            <li>Eat breakfast</li>
+            <li>Do laundry</li>
+            <li>sleep</li>
+        </ol>
+
+<!-- Link Example -->
+<!-- Blank opens it on a new tab; if you delete it then it'll open the link in the current tab -->
+        <a href="https://www.gradescope.com/" target="_blank">Gradescope</a>
+    </body>
+</html>
